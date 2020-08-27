@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yBfWUCZsZ8dKYhW8V5nTRpn8Qdvd9Izl59JQcWdWr8DnX5YgnDw5R6Qq+jMV5D3TsQxZbHlVd51cTwTVQjXprQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\maurilio.BREDAS\\Downloads\\MeuMundoCompartilhado-20200827T113339Z-001\\MeuMundoCompartilhado\\MeuMundoCompartilhado.Shared\\MeuMundoCompartilhado.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\maurilio.BREDAS\\.nuget\\packages\\netstandard.library.ref\\2.1.0\\netstandard.library.ref.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

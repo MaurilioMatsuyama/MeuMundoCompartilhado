@@ -1,0 +1,225 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\maurilio.BREDAS\\Downloads\\MeuMundoCompartilhado-20200827T113339Z-001\\MeuMundoCompartilhado\\MeuMundoCompartilhado.Infra\\MeuMundoCompartilhado.Infra.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\maurilio.BREDAS\\Downloads\\MeuMundoCompartilhado-20200827T113339Z-001\\MeuMundoCompartilhado\\MeuMundoCompartilhado.Domain\\MeuMundoCompartilhado.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\maurilio.BREDAS\\Downloads\\MeuMundoCompartilhado-20200827T113339Z-001\\MeuMundoCompartilhado\\MeuMundoCompartilhado.Domain\\MeuMundoCompartilhado.Domain.csproj",
+        "projectName": "MeuMundoCompartilhado.Domain",
+        "projectPath": "C:\\Users\\maurilio.BREDAS\\Downloads\\MeuMundoCompartilhado-20200827T113339Z-001\\MeuMundoCompartilhado\\MeuMundoCompartilhado.Domain\\MeuMundoCompartilhado.Domain.csproj",
+        "packagesPath": "C:\\Users\\maurilio.BREDAS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maurilio.BREDAS\\Downloads\\MeuMundoCompartilhado-20200827T113339Z-001\\MeuMundoCompartilhado\\MeuMundoCompartilhado.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\maurilio.BREDAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/boletonetcorebuild/api/v3/index.json": {},
+          "https://www.myget.org/F/bredas/auth/7881a7eb-d10e-4f87-bb74-647d1bcbb99e/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\maurilio.BREDAS\\Downloads\\MeuMundoCompartilhado-20200827T113339Z-001\\MeuMundoCompartilhado\\MeuMundoCompartilhado.Shared\\MeuMundoCompartilhado.Shared.csproj": {
+                "projectPath": "C:\\Users\\maurilio.BREDAS\\Downloads\\MeuMundoCompartilhado-20200827T113339Z-001\\MeuMundoCompartilhado\\MeuMundoCompartilhado.Shared\\MeuMundoCompartilhado.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "NETStandard.Library.Ref",
+              "version": "[2.1.0, 2.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\maurilio.BREDAS\\Downloads\\MeuMundoCompartilhado-20200827T113339Z-001\\MeuMundoCompartilhado\\MeuMundoCompartilhado.Infra\\MeuMundoCompartilhado.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\maurilio.BREDAS\\Downloads\\MeuMundoCompartilhado-20200827T113339Z-001\\MeuMundoCompartilhado\\MeuMundoCompartilhado.Infra\\MeuMundoCompartilhado.Infra.csproj",
+        "projectName": "MeuMundoCompartilhado.Infra",
+        "projectPath": "C:\\Users\\maurilio.BREDAS\\Downloads\\MeuMundoCompartilhado-20200827T113339Z-001\\MeuMundoCompartilhado\\MeuMundoCompartilhado.Infra\\MeuMundoCompartilhado.Infra.csproj",
+        "packagesPath": "C:\\Users\\maurilio.BREDAS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maurilio.BREDAS\\Downloads\\MeuMundoCompartilhado-20200827T113339Z-001\\MeuMundoCompartilhado\\MeuMundoCompartilhado.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\maurilio.BREDAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/boletonetcorebuild/api/v3/index.json": {},
+          "https://www.myget.org/F/bredas/auth/7881a7eb-d10e-4f87-bb74-647d1bcbb99e/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\maurilio.BREDAS\\Downloads\\MeuMundoCompartilhado-20200827T113339Z-001\\MeuMundoCompartilhado\\MeuMundoCompartilhado.Domain\\MeuMundoCompartilhado.Domain.csproj": {
+                "projectPath": "C:\\Users\\maurilio.BREDAS\\Downloads\\MeuMundoCompartilhado-20200827T113339Z-001\\MeuMundoCompartilhado\\MeuMundoCompartilhado.Domain\\MeuMundoCompartilhado.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "NETStandard.Library.Ref",
+              "version": "[2.1.0, 2.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\maurilio.BREDAS\\Downloads\\MeuMundoCompartilhado-20200827T113339Z-001\\MeuMundoCompartilhado\\MeuMundoCompartilhado.Shared\\MeuMundoCompartilhado.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\maurilio.BREDAS\\Downloads\\MeuMundoCompartilhado-20200827T113339Z-001\\MeuMundoCompartilhado\\MeuMundoCompartilhado.Shared\\MeuMundoCompartilhado.Shared.csproj",
+        "projectName": "MeuMundoCompartilhado.Shared",
+        "projectPath": "C:\\Users\\maurilio.BREDAS\\Downloads\\MeuMundoCompartilhado-20200827T113339Z-001\\MeuMundoCompartilhado\\MeuMundoCompartilhado.Shared\\MeuMundoCompartilhado.Shared.csproj",
+        "packagesPath": "C:\\Users\\maurilio.BREDAS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maurilio.BREDAS\\Downloads\\MeuMundoCompartilhado-20200827T113339Z-001\\MeuMundoCompartilhado\\MeuMundoCompartilhado.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\maurilio.BREDAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/boletonetcorebuild/api/v3/index.json": {},
+          "https://www.myget.org/F/bredas/auth/7881a7eb-d10e-4f87-bb74-647d1bcbb99e/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "NETStandard.Library.Ref",
+              "version": "[2.1.0, 2.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

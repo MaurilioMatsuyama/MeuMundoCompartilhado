@@ -1,0 +1,12 @@
+D:\ProjetosPessoais\MeuMundoCompartilhado\MeuMundoCompartilhado.Domain\bin\Debug\netstandard2.1\MeuMundoCompartilhado.Domain.deps.json
+D:\ProjetosPessoais\MeuMundoCompartilhado\MeuMundoCompartilhado.Domain\bin\Debug\netstandard2.1\MeuMundoCompartilhado.Domain.dll
+D:\ProjetosPessoais\MeuMundoCompartilhado\MeuMundoCompartilhado.Domain\bin\Debug\netstandard2.1\MeuMundoCompartilhado.Domain.pdb
+D:\ProjetosPessoais\MeuMundoCompartilhado\MeuMundoCompartilhado.Domain\obj\Debug\netstandard2.1\MeuMundoCompartilhado.Domain.csprojAssemblyReference.cache
+D:\ProjetosPessoais\MeuMundoCompartilhado\MeuMundoCompartilhado.Domain\obj\Debug\netstandard2.1\MeuMundoCompartilhado.Domain.AssemblyInfoInputs.cache
+D:\ProjetosPessoais\MeuMundoCompartilhado\MeuMundoCompartilhado.Domain\obj\Debug\netstandard2.1\MeuMundoCompartilhado.Domain.AssemblyInfo.cs
+D:\ProjetosPessoais\MeuMundoCompartilhado\MeuMundoCompartilhado.Domain\obj\Debug\netstandard2.1\MeuMundoCompartilhado.Domain.csproj.CoreCompileInputs.cache
+D:\ProjetosPessoais\MeuMundoCompartilhado\MeuMundoCompartilhado.Domain\obj\Debug\netstandard2.1\MeuMundoCompartilhado.Domain.dll
+D:\ProjetosPessoais\MeuMundoCompartilhado\MeuMundoCompartilhado.Domain\obj\Debug\netstandard2.1\MeuMundoCompartilhado.Domain.pdb
+D:\ProjetosPessoais\MeuMundoCompartilhado\MeuMundoCompartilhado.Domain\bin\Debug\netstandard2.1\MeuMundoCompartilhado.Shared.dll
+D:\ProjetosPessoais\MeuMundoCompartilhado\MeuMundoCompartilhado.Domain\bin\Debug\netstandard2.1\MeuMundoCompartilhado.Shared.pdb
+D:\ProjetosPessoais\MeuMundoCompartilhado\MeuMundoCompartilhado.Domain\obj\Debug\netstandard2.1\MeuMundoCompartilhado.Domain.csproj.CopyComplete

@@ -1,0 +1,9 @@
+D:\ProjetosPessoais\MeuMundoCompartilhado\MeuMundoCompartilhado.Shared\bin\Debug\netstandard2.0\MeuMundoCompartilhado.Shared.deps.json
+D:\ProjetosPessoais\MeuMundoCompartilhado\MeuMundoCompartilhado.Shared\bin\Debug\netstandard2.0\MeuMundoCompartilhado.Shared.dll
+D:\ProjetosPessoais\MeuMundoCompartilhado\MeuMundoCompartilhado.Shared\bin\Debug\netstandard2.0\MeuMundoCompartilhado.Shared.pdb
+D:\ProjetosPessoais\MeuMundoCompartilhado\MeuMundoCompartilhado.Shared\obj\Debug\netstandard2.0\MeuMundoCompartilhado.Shared.csprojAssemblyReference.cache
+D:\ProjetosPessoais\MeuMundoCompartilhado\MeuMundoCompartilhado.Shared\obj\Debug\netstandard2.0\MeuMundoCompartilhado.Shared.AssemblyInfoInputs.cache
+D:\ProjetosPessoais\MeuMundoCompartilhado\MeuMundoCompartilhado.Shared\obj\Debug\netstandard2.0\MeuMundoCompartilhado.Shared.AssemblyInfo.cs
+D:\ProjetosPessoais\MeuMundoCompartilhado\MeuMundoCompartilhado.Shared\obj\Debug\netstandard2.0\MeuMundoCompartilhado.Shared.csproj.CoreCompileInputs.cache
+D:\ProjetosPessoais\MeuMundoCompartilhado\MeuMundoCompartilhado.Shared\obj\Debug\netstandard2.0\MeuMundoCompartilhado.Shared.dll
+D:\ProjetosPessoais\MeuMundoCompartilhado\MeuMundoCompartilhado.Shared\obj\Debug\netstandard2.0\MeuMundoCompartilhado.Shared.pdb
