@@ -5,6 +5,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
+using MeuMundoCompartilhado.Domain.Repositories;
+using MeuMundoCompartilhado.Infra.Repositories;
+using MeuMundoCompartilhado.Shared.UnitOfWork;
+using MeuMundoCompartilhado.Infra.UnitOfWork;
 
 namespace MeuMundoCompartilhado.Api
 {
@@ -22,8 +26,10 @@ namespace MeuMundoCompartilhado.Api
         {
             services.AddControllers();
 
-            services.AddDbContext<ApplicationDbContext>(options => options.UseInMemoryDatabase("MeuMundo"));
-            //services.AddDbContext<ApplicationDbContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("ConnectionString")));
+            //services.AddDbContext<DataContext>(options => options.UseInMemoryDatabase("MeuMundo"));
+            services.AddDbContext<DataContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("ConnectionString")));
+            services.AddTransient<IPessoaRepository, PessoaRepository>();
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

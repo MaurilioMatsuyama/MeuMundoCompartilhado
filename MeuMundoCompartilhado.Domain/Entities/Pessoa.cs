@@ -19,6 +19,11 @@ namespace MeuMundoCompartilhado.Domain.Entities
         private IList<Compromisso> _compromissos;
         public IReadOnlyCollection<Compromisso> Compromissos { get { return _compromissos.ToArray(); } }
 
+        public Pessoa()
+        {
+
+        }
+
         public Pessoa(string nome, string sobrenome, DateTime dataAniversario, Parentesco parentesco)
         {
             Nome = nome;

@@ -1,20 +1,20 @@
 ﻿using MeuMundoCompartilhado.Domain.Entities;
-using MeuMundoCompartilhado.Domain.Enums;
 using System;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 
 namespace MeuMundoCompartilhado.Domain.Repositories
 {
     public interface IPessoaRepository
     {
-        bool PessoaExists(string nome, string sobrenome, TipoParentesco tipoParentesco, string descricaoParentesco);
+        Pessoa GetById(int id);
 
-        void CreatePessoa(Pessoa pessoa);
+        List<Pessoa> GetAll();
+
+        List<Pessoa> Find(Expression<Func<Pessoa, bool>> expression);
+
+        void InsertPessoa(Pessoa pessoa);
 
         void UpdatePessoa(Pessoa pessoa);
-
-        Pessoa GetById(Guid id);
-
-        IEnumerable<Pessoa> GetAll();
     }
 }

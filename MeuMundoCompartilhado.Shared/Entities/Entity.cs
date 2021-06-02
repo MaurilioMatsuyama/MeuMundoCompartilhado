@@ -4,11 +4,10 @@ namespace MeuMundoCompartilhado.Shared.Entities
 {
     public abstract class Entity
     {
-        public Guid Id { get; private set; }
+        public int Id { get; set; }
 
         public Entity()
         {
-            Id = Guid.NewGuid();
         }
     }
 }

@@ -1,31 +1,45 @@
 ﻿using MeuMundoCompartilhado.Domain.Entities;
 using MeuMundoCompartilhado.Domain.Enums;
 using MeuMundoCompartilhado.Domain.Repositories;
+using MeuMundoCompartilhado.Infra.Contexts;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Expressions;
 
 namespace MeuMundoCompartilhado.Infra.Repositories
 {
     public class PessoaRepository : IPessoaRepository
     {
-        public void CreatePessoa(Pessoa pessoa)
+        private readonly DataContext _dataContext;
+
+        public PessoaRepository(DataContext dataContext)
         {
-            throw new NotImplementedException();
+            _dataContext = dataContext;
         }
 
-        public IEnumerable<Pessoa> GetAll()
+        public Pessoa GetById(int id)
         {
-            throw new NotImplementedException();
+            var query = _dataContext.Pessoas.AsNoTracking().Where(x => x.Id == id).FirstOrDefault();
+            return query;
         }
 
-        public Pessoa GetById(Guid id)
+        public List<Pessoa> GetAll()
         {
-            throw new NotImplementedException();
+            var query = _dataContext.Pessoas.AsNoTracking();
+            return query.ToList();
         }
 
-        public bool PessoaExists(string nome, string sobrenome, TipoParentesco tipoParentesco, string descricaoParentesco)
+        public List<Pessoa> Find(Expression<Func<Pessoa, bool>> expression)
         {
-            throw new NotImplementedException();
+            var query = _dataContext.Pessoas.Where(expression);
+            return query.ToList();
+        }
+
+        public void InsertPessoa(Pessoa pessoa)
+        {
+            _dataContext.Pessoas.Add(pessoa);
         }
 
         public void UpdatePessoa(Pessoa pessoa)

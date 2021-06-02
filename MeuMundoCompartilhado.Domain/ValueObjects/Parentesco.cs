@@ -9,6 +9,11 @@ namespace MeuMundoCompartilhado.Domain.ValueObjects
 
         public string Descricao { get; private set; }
 
+        public Parentesco()
+        {
+
+        }
+
         public Parentesco(TipoParentesco tipo, string descricao)
         {
             Tipo = tipo;
